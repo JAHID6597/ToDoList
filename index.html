@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container d-flex justify-content-between pt-3 pb-3">
+        <h1 class="header-title">To Do List</h1>
+        <input
+          type="text"
+          name="filter"
+          id="filter"
+          placeholder="Search for..."
+        />
+      </div>
+    </div>
+
+    <div class="container to-do-list">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control text-center"
+          id="add-item-input"
+          placeholder="Add Item..."
+        />
+        <button class="input-group-text btn-success" id="add-item-btn">
+          Add Item
+        </button>
+      </div>
+      <ul class="list-group" id="list-items"><li class="list-group-item"><span class="content-text">Item 1</span><span class="del">X</span></li><li class="list-group-item"><span class="content-text">Item 2</span><span class="del">X</span></li><li class="list-group-item"><span class="content-text">Item 3</span><span class="del">X</span></li><li class="list-group-item"><span class="content-text">Item 4</span><span class="del">X</span></li></ul></div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
